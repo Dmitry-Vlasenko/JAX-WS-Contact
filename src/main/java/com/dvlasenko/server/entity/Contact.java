@@ -1,13 +1,13 @@
 package com.dvlasenko.server.entity;
 
-public class User {
+public class Contact {
 
     private final Integer id;
     private final String firstName;
     private final String lastName;
     private final String phoneNumber;
 
-    public User(Integer id, String firstName, String lastName, String phoneNumber) {
+    public Contact(Integer id, String firstName, String lastName, String phoneNumber) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
